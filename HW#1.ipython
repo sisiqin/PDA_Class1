@@ -1,0 +1,8 @@
+####(1) Write a function **countVowels** to count up the number of vowels contained in a given string. Valid vowels are: 'a', 'e', 'i', 'o', 'u'. For example, countVowels('aeiou') should return 5. 
+
+def countVowels(n):
+    count_number = 0
+    for i in n:
+        if i in "aeiouAEIOU":
+            count_number +=1
+    return count_number
